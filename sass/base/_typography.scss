@@ -6,7 +6,7 @@
 
 .heading-primary::first-letter {
   font-size: 9.8rem;
-  color: #767068;
+  color: $color-primary-dark;
 }
 
 .heading-secondary {
@@ -19,7 +19,7 @@
 
 .heading-secondary::first-letter {
   font-size: 8.6rem;
-  color: #767068;
+  color: $color-primary-dark;
 }
 
 .heading-tertiary {

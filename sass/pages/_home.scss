@@ -62,9 +62,9 @@
 .about-img {
   display: block;
   width: 20rem;
-  border: 1px solid #ebe0d0;
+  border: 1px solid $color-primary;
   /* border-radius: 50%; */
-  box-shadow: 0 6.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6.4rem 4.8rem rgba($color-black, 0.1);
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
@@ -77,7 +77,7 @@
 
 .social-icons a {
   display: block;
-  color: #211f1c;
+  color: $color-grey-dark;
 }
 
 .social-icon {
@@ -154,22 +154,22 @@
 
 .tag--english {
   color: #fff;
-  background-color: #59776f;
+  background-color: $color-secondary;
 }
 
 .tag--russian {
   color: #211f1c;
-  background-color: #ebe0d0;
+  background-color: $color-primary;
 }
 
 .tag--article {
   color: #fff;
-  background-color: #211f1c;
+  background-color: $color-grey-dark;
 }
 
 .tag--interview {
   color: #fff;
-  background-color: #767068;
+  background-color: $color-primary-dark;
 }
 
 .article-title {

@@ -51,9 +51,19 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
  */
 
-/***************************/
-/* GENERAL REUSABLE COMPONENTS */
-/***************************/
+$color-primary: #ebe0d0;
+$color-primary-light: #f4efeb;
+$color-primary-dark: #767068;
+
+$color-secondary: #59776f;
+
+$color-grey-dark: #211f1c;
+$color-grey-medium: #333;
+$color-grey-light: #555;
+
+$color-black: #000;
+
+//
 
 * {
   padding: 0;
