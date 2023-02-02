@@ -1,0 +1,33 @@
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 4.8rem;
+}
+
+.heading-primary::first-letter {
+  font-size: 9.8rem;
+  color: #767068;
+}
+
+.heading-secondary {
+  /* font-family: 'Roboto Mono', monospace; */
+  font-size: 4.4rem;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 6.4rem;
+}
+
+.heading-secondary::first-letter {
+  font-size: 8.6rem;
+  color: #767068;
+}
+
+.heading-tertiary {
+  font-size: 2.4rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}

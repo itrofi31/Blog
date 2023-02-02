@@ -1,0 +1,176 @@
+/* 
+1rem = 1em = 16px
+  */
+
+/***************************/
+/*BELOW 1360px SMALLER DESKTOPS
+1360px / 16px = 85em */
+/***************************/
+
+@media (max-width: 85em) {
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+  .heading-primary::first-letter {
+    font-size: 8.6rem;
+    color: #767068;
+  }
+
+  .heading-secondary {
+    /* font-family: 'Roboto Mono', monospace; */
+    font-size: 3.2rem;
+  }
+
+  .heading-secondary::first-letter {
+    font-size: 7.4rem;
+  }
+}
+
+/***************************/
+/*BELOW 1200px (Landscape tablets) */
+/***************************/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px */
+    font-size: 56.25%;
+  }
+}
+
+/***************************/
+/*BELOW 944px (Tablets) */
+/***************************/
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 */
+    font-size: 50%;
+  }
+
+  section {
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+  }
+
+  .section-hero {
+    padding-bottom: 4.8rem;
+  }
+
+  .section-articles {
+    padding-bottom: 8rem;
+  }
+
+  .section-about {
+    background-image: linear-gradient(
+        to right,
+        rgba(256, 256, 256, 0.7),
+        rgba(256, 256, 256, 0.7)
+      ),
+      url(../img/avery-evans-MfONvyJEWOA-unsplash.webp);
+  }
+
+  .section-about .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-empty {
+    display: none;
+  }
+
+  .about-box {
+    padding: 4.8rem 0;
+  }
+
+  .heading-secondary,
+  .heading-secondary {
+    margin-bottom: 6.2rem;
+  }
+
+  .section-articles {
+    margin-bottom: 2.4rem;
+  }
+
+  .articles {
+    row-gap: 9.6rem;
+  }
+
+  .articles .btn {
+    bottom: -3rem;
+  }
+
+  .footer .container {
+    padding: 3.2rem 3.2rem;
+  }
+}
+
+/***************************/
+/*BELOW 720px (Smaller tablets) */
+/***************************/
+@media (max-width: 45em) {
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .articles {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3.2rem;
+  }
+  .grid {
+    row-gap: 4.8rem;
+  }
+}
+/***************************/
+/*BELOW 582px (Phones) */
+/***************************/
+@media (max-width: 37em) {
+  .header {
+    padding: 0 1.8rem;
+  }
+
+  section,
+  .about-box {
+    padding: 3.2rem 3.2rem;
+  }
+
+  .nav-list {
+    gap: 2.4rem;
+  }
+
+  .section-hero {
+    padding-bottom: 1.2rem;
+  }
+
+  .about-box .heading-secondary,
+  .section-articles .heading-secondary {
+    margin-bottom: 6.2rem;
+  }
+
+  .social-icon:hover {
+    transform: none;
+  }
+
+  .hero-text {
+    margin-bottom: 2.4rem;
+  }
+
+  .section-articles {
+    margin-bottom: 2.4rem;
+  }
+
+  .articles {
+    width: 75%;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    column-gap: 3.2rem;
+  }
+
+  .footer .btn {
+    letter-spacing: 0.1rem;
+  }
+}
+
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
